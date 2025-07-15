@@ -63,11 +63,11 @@ body {
     font-size: 0.5em;
     font-weight: 400;
     color: #e0c3fc;
-    letter-spacing: 1pt;
+    letter-spacing: 2px;
     text-align: left;
 }
 
-.nav {
+.hyperlinks {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -75,11 +75,11 @@ body {
     gap: 18pt;
 }
 
-.nav li {
+.hyperlinks li {
     padding: 0;
 }
 
-.nav a {
+.hyperlinks a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1em;
@@ -90,7 +90,7 @@ body {
     background: rgba(90, 52, 160, 0.06);
 }
 
-.nav a:hover {
+.hyperlinks a:hover {
     background: #bc6ff1;
     color: #222;
 }
@@ -111,7 +111,7 @@ body {
     .portfolio-title {
         font-size: 1.5em;
     }
-    .nav {
+    .hyperlinks {
         gap: 8pt;
         justify-content: center;
     }
