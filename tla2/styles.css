@@ -19,34 +19,24 @@ body {
     box-shadow: 0 4px 24px rgba(106,44,147,0.15);
 }
 
-.left-section {
+.logo-title {
     display: flex;
     align-items: center;
-    gap: 18pt;
+    gap: 24pt;
 }
 
 .logo-img {
     border-radius: 15%;
-    background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 80px;
     object-fit: contain;
 }
 
-.profile-img {
-    border-radius: 50%;
-    border: 5px solid #bc6ff1;
-    background: #fff;
-    box-shadow: 0 2px 12px rgba(106,44,147,0.25);
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-}
-
-.center-section {
-    margin-left: 32pt;
-    margin-right: 32pt;
+.title-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .portfolio-title {
@@ -56,11 +46,12 @@ body {
     color: #fff;
     line-height: 1.1em;
     text-shadow: 0 2px 12px rgba(140,60,200,0.20);
+    margin-bottom: 4pt;
     text-align: left;
 }
 
 .subtitle {
-    font-size: 0.5em;
+    font-size: 1em;
     font-weight: 400;
     color: #e0c3fc;
     letter-spacing: 2px;
@@ -101,11 +92,12 @@ body {
         height: auto;
         padding: 20pt 10pt;
     }
-    .left-section {
+    .logo-title {
         margin-bottom: 18pt;
+        justify-content: center;
     }
-    .center-section {
-        margin: 0 0 18pt 0;
+    .title-block {
+        align-items: center;
         text-align: center;
     }
     .portfolio-title {
