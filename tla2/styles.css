@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, #6a2c93 0%, #8f5ae8 50%, #bc6ff1 100%);
+    color: #fff;
+}
+
+.header {
+    background: rgba(30, 14, 60, 0.85);
+    border-bottom: 2px solid #9b59b6;
+    height: 140pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40pt;
+    padding-right: 40pt;
+    box-sizing: border-box;
+    box-shadow: 0 4px 24px rgba(106,44,147,0.15);
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 18pt;
+}
+
+.logo-img {
+    border-radius: 15%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid #bc6ff1;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(106,44,147,0.25);
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.center-section {
+    margin-left: 32pt;
+    margin-right: 32pt;
+}
+
+.portfolio-title {
+    font-size: 2.3em;
+    font-weight: 700;
+    letter-spacing: 1pt;
+    color: #fff;
+    line-height: 1.1em;
+    text-shadow: 0 2px 12px rgba(140,60,200,0.20);
+    text-align: left;
+}
+
+.subtitle {
+    font-size: 0.5em;
+    font-weight: 400;
+    color: #e0c3fc;
+    letter-spacing: 1pt;
+    text-align: left;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18pt;
+}
+
+.nav li {
+    padding: 0;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 7pt 22pt;
+    border-radius: 25pt;
+    transition: background 0.18s, color 0.18s;
+    background: rgba(90, 52, 160, 0.06);
+}
+
+.nav a:hover {
+    background: #bc6ff1;
+    color: #222;
+}
+
+@media (max-width: 900px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 20pt 10pt;
+    }
+    .left-section {
+        margin-bottom: 18pt;
+    }
+    .center-section {
+        margin: 0 0 18pt 0;
+        text-align: center;
+    }
+    .portfolio-title {
+        font-size: 1.5em;
+    }
+    .nav {
+        gap: 8pt;
+        justify-content: center;
+    }
+}
